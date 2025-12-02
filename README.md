@@ -6,7 +6,7 @@ Apply Allergo foundation model for different materials properties analysis Propo
 
 **1. Introduction and Background**:
    - This project aims to use foundation model for materials research and molecular dynamics.
-   - We aims at exploring Allegro-FM foundation model and also [Meta Uma universal model](https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/).
+   - We aims at exploring Allegro-FM, [Meta Uma universal model] (https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/), [MACE model](https://github.com/ACEsuit/mace-foundations) and [PET-MAD model](https://github.com/lab-cosmo/pet-mad).
 
 **2. Project goal**
    - Designing and characterizing single-Layer graphene with Allegro-FM, including the effects of target doping and point defects.
