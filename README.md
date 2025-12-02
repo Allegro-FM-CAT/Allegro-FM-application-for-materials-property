@@ -21,6 +21,6 @@ Apply Allergo foundation model  and other popular foundation models for differen
    - MD runs: Run [large-scale molecular dynamics simulations](https://www.lammps.org/#gsc.tab=0). Also simulate the effects of doping, such as changes in lattice structure or defect formation.
    - Result Analysis: Use ASE tools for preliminary analysis, then use tools like [phonopy](https://phonopy.github.io/phonopy/phonopy-module.html) or [mdapy](https://mdapy.readthedocs.io/en/latest/) for validation and characterization purpose. 
 
-**4. Expected results**
-   - Dopants concentration/types effects on graphene's structure perperties
-   - Different defects effects on graphene chemical and physical  properties
+**4. Premilinary results**
+   - Lattice parameter prediction with MACE and UMA models for Ni FCC unit structure
+   - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
