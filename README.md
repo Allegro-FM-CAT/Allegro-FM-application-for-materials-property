@@ -1,6 +1,6 @@
-# Allergo-FM-application-for-materials-property
+# Allergo-FM-application-for-materials-property Proposal
 
-Apply Allergo foundation model for different materials properties analysis Proposal
+Apply Allergo foundation model  and other popular foundation models for different materials properties prediction and analysis 
 
 **Outline of project**:
 
