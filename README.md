@@ -22,6 +22,20 @@ Apply Allergo foundation model  and other popular foundation models for differen
    - Result Analysis: Use ASE tools for preliminary analysis, then use tools like [phonopy](https://phonopy.github.io/phonopy/phonopy-module.html) or [mdapy](https://mdapy.readthedocs.io/en/latest/) for validation and characterization purpose. 
 
 **4. Premilinary results**
-   - Lattice parameter prediction with MACE and UMA models for Ni FCC unit structure
-   ![Lattice parameter prediction from MACE](./MACE-test/Ni_PE_vs_lattice.png)
-   - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
+- Lattice parameter prediction with MACE and UMA models for Ni FCC unit structure
+<table>
+  <tr>
+    <td align="center">
+      <img src="./MACE-test/Ni_PE_vs_lattice.png" alt="MACE Model" width="400"/>
+      <br>
+      <em>MACE Model Prediction</em>
+    </td>
+    <td align="center">
+      <img src="./UMA-test/Ni_PE_vs_lattice.png" alt="UMA Model" width="400"/>
+      <br>
+      <em>UMA Model Prediction</em>
+    </td>
+  </tr>
+</table>
+
+- Lattice parameter prediction with MACE and UMA models for Tobermorite structure
