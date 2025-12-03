@@ -100,13 +100,25 @@ Allegro-FM-application-for-materials-property/
 </table>
 
 - Potential energy variation with volume predicion with Nequip model for Ni FCC unit structure
-![](./result/energy_volume_Ni-nequip.png)
-
     <p align="center">
       <img src="./result/energy_volume_Ni-nequip.png" alt="energy result" width="400"/>
     </p>
 
-
+### MD performance and G(r) calculation using UMA for Tobermorite.
+<table>
+  <tr>
+    <td align="center">
+      <img src="./result/rdf_analysis.png" alt="gr" width="400"/>
+      <br>
+      <em>MACE Model Prediction</em>
+    </td>
+    <td align="center">
+      <img src="./result/md_analysis.png" alt="md" width="400"/>
+      <br>
+      <em>UMA Model Prediction</em>
+    </td>
+  </tr>
+</table>
 ***Fine-tune Preliminary***
 | Metric | Base UMA | Fine-tuned UMA | DFT Ground Truth | Improvement |
 | :--- | :--- | :--- | :--- | :--- |
