@@ -5,6 +5,7 @@ Apply Allergo foundation model  and other popular foundation models for differen
 **Outline of project**:
 
 **1. Introduction and Background**:
+
 Atomistic simulation underpins modern materials science, providing a microscopic view of physical phenomena that govern macroscopic material behavior. Machine Learning Interatomic Potentials (MLIPs) have emerged as the necessary technical bridge to overcome this scalability challenge. MLIPs achieve accuracy comparable to DFT calculations while maintaining the computational efficiency inherent to classical molecular dynamics (MD) simulations.Foundation Models(FMs) are universal, pre-trained potentials capable of providing reliable, out-of-the-box predictions across a vast chemical space, thereby democratizing sophisticated atomistic modeling and significantly reducing the human effort previously required for developing system-specific potentials.
    - This project aims to use foundation model for materials research and molecular dynamics simulations.
    - We aims at exploring Allegro-FM, [Meta Uma universal model](https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/), [MACE model](https://github.com/ACEsuit/mace-foundations) and [PET-MAD model](https://github.com/lab-cosmo/pet-mad) to benchmark properties of Ni-based alloy system and tobermorite structure.
