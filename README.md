@@ -20,7 +20,7 @@ The practical utility of an uMLIP depends on how efficiently the model can be sp
   For example:
   - **Bulk Materials:** Understanding of complex structure of Hexagonal Manganite.
     <p align="center">
-      <img src="./data/YMnO3.png" alt="Ni.xyz" width="400"/>
+      <img src="./data/YMnO3.png" alt="ymno3.xyz" width="400"/>
     </p>
   - **Thermodynamic Systems:** Recovering the exact energy minima required for Ni-based superalloy stability and phase boundaries.
     <p align="center">
@@ -81,6 +81,8 @@ Allegro-FM-application-for-materials-property/
 (Important message: The finetune script here is CPU-only version with smaller dataset and batch size for TEST PURPOSE ONLY!)
 
 ## 5. Preliminary results
+
+### Base Model test for MACE, UMA and Nequip for Ni FCC unit structure
 - Lattice parameter prediction with MACE and UMA models for Ni FCC unit structure
 <table>
   <tr>
@@ -100,7 +102,10 @@ Allegro-FM-application-for-materials-property/
 - Potential energy variation with volume predicion with Nequip model for Ni FCC unit structure
 ![](./result/energy_volume_Ni-nequip.png)
 
-- Lattice parameter prediction with MACE and UMA models for Tobermorite structure
+    <p align="center">
+      <img src="./result/energy_volume_Ni-nequip.png" alt="energy result" width="400"/>
+    </p>
+
 
 ***Fine-tune Preliminary***
 | Metric | Base UMA | Fine-tuned UMA | DFT Ground Truth | Improvement |
