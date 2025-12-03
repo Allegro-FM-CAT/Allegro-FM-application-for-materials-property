@@ -126,9 +126,8 @@ https://github.com/user-attachments/assets/a25de54a-6c89-42fa-9da4-0a1371a890e7
 
 ### Finetune preliminary study
 
-(NOTE: Preliminary study runs on CPU with smaller dataset for now)
-100 training samples, 20 validation from vasprun.xml from VASP non-collinear simulation on YMno3 2x2x1 120 atoms structure
-Using weight decaying AdamW optimizer in this example.
+- 100 training samples, 20 validation from vasprun.xml from VASP non-collinear simulation on YMno3 2x2x1 120 atoms structure. (NOTE: Preliminary study runs on CPU with smaller dataset for now)
+- Using weight decaying AdamW optimizer in this example.
 
 | Metric | Base UMA | Fine-tuned UMA | DFT Ground Truth |
 | :--- | :--- | :--- | :--- |
