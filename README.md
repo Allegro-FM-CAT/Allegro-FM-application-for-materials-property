@@ -96,6 +96,12 @@ Allegro-FM-application-for-materials-property/
 
 - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
 
+***Fine-tune Preliminary***
+| Metric | Base UMA | Fine-tuned UMA | DFT Ground Truth | Improvement |
+| :--- | :--- | :--- | :--- | :--- |
+| **Predicted Energy (eV)** | -1001.7435 | -1070.8307 | - | - |
+| **MAE (eV)** | 59.8165 | 9.2707 | - | **84.50%** |
+
 ## 6. Future work
 - Calcualate remaining properties for Ni and tobermorite structures.
 - Validate models results with DFT/experimental results and do comparative analysis between models.
