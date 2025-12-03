@@ -18,6 +18,10 @@ The practical utility of an uMLIP depends on how efficiently the model can be sp
 ### **$\color{red}{\text{Why we need?}}$**
 - Specialization: Fine-tuning allows us to take a more general model and optimize it for a specific system.
   For example:
+  - **Bulk Materials:** Understanding of complex structure of Hexagonal Manganite.
+    <p align="center">
+      <img src="./data/YMnO3.png" alt="Ni.xyz" width="400"/>
+    </p>
   - **Thermodynamic Systems:** Recovering the exact energy minima required for Ni-based superalloy stability and phase boundaries.
     <p align="center">
       <img src="./data/Ni.png" alt="Ni.xyz" width="400"/>
@@ -26,7 +30,7 @@ The practical utility of an uMLIP depends on how efficiently the model can be sp
     <p align="center">
       <img src="./data/tobe-small.png" alt="tobermorite" width="400"/>
     </p>
-
+     
 - Achieving Near-Quantum Accuracy: While universal models are good, but they may not match the precision of *ab initio* methods for every structure. The project proposes using techniques like LoRA to rapidly fine-tune the model to achieve "near-quantum accuracy" relative to DFT data.
 
 - Handling Complex Phenomena: Universal models might struggle with very specific or complex structural nuances. Fine-tuning is used here to accurately simulate delicate phenomena like defect formation energies, adsorption sites, and grain boundary effects (such as stacking fault energy), which require precise energy and force calculations that a general model might glaze over.
@@ -91,7 +95,7 @@ Allegro-FM-application-for-materials-property/
   </tr>
 </table>
 
-- Potentoal energy variation with volume predicion with Nequip model for Ni FCC unit structure
+- Potential energy variation with volume predicion with Nequip model for Ni FCC unit structure
 ![](./result/energy_volume_Ni-nequip.png)
 
 - Lattice parameter prediction with MACE and UMA models for Tobermorite structure
