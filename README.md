@@ -4,21 +4,32 @@
 **A materials simulation framework for benchmarking and fine-tuning of Foundation Models for Interatomic Potentials (Allegro-FM, UMA, MACE, PET-MAD).**
 
 
-## 1. Project Abstract (What we're working on?)
+## 1. Project Abstract (Why we are doing?)
 
-Machine Learning Interatomic Potentials (MLIPs) have fundamentally changed the evolution of computational materials science. It has the feature of both *ab initio* accuracy from traditional method like Density Functional Theory (DFT) and the efficiency required for large scale Molecular Dynamics (MD). 
+Universal Machine Learning Interatomic Potentials (uMLIPs) have fundamentally changed the evolution of computational materials science. It has the feature of both *ab initio* accuracy from traditional method like Density Functional Theory (DFT) and the efficiency required for large scale Molecular Dynamics (MD). 
 
 Foundation Models(FMs) like **MACE-MP-0** and **Allegro-FM** are universal, pre-trained potentials capable of providing reliable, out-of-the-box predictions across the preodic table.
    - This project aims to use foundation model for materials research and molecular dynamics simulations.
    - We aims at exploring [Allegro-FM](https://arxiv.org/abs/2502.06073), [Meta Uma universal model](https://ai.meta.com/research/publications/uma-a-family-of-universal-models-for-atoms/), [MACE model](https://github.com/ACEsuit/mace-foundations) and [PET-MAD model](https://github.com/lab-cosmo/pet-mad) to benchmark properties of different materials.
 
-## 2. Project goal
-   - Designing and characterizing Ni FCC structure and alloy system with Allegro-FM, including the effects of Ni percentage in alloy.
-   - Validating the model's predictions against existing experimental or theoretical data for Ni-based alloy and tobermorite.
-   - Testing lattice parameters, bond angle, bond length,elastic constant,g(r) and phonon properties.
-   - Simulating phenomena at a larger scale, such as defect formation and favourable adsorption sites.
+The practical utility of an uMLIP depends on how efficiently the model can be specialized for a target system. We propose that the PET architecture combined with parameter-efficient Low-Rank Adaptation (LoRA) enables rapid fine-tuning to near-quantum accuracy. In this work, we will first rigorously benchmark accuracy-efficiency trade-offs among representative foundation models and traditional DFT calculations.
+
+## 2. Project goal (What we are doing?)
+
+1. **Characterization:** Design and characterize Ni FCC structures and Ni-based alloy systems, analyzing the effects of Ni percentage on structural stability.
+
+2. **Benchmarking:** Validate model predictions (Allegro-FM, UMA, MACE, PET-MAD) against Density Functional Theory (DFT) data for both crystalline alloys and complex Tobermorite structures.
+
+3. **Property Analysis:** Calculate and compare fundamental properties via the kn kernel:
+   - Lattice parameters and structures
+   - Radial Distribution Functions (RDF) and bond/angle Distributions
+   - Elastic constants
+   - Phonon properties
+   - etc.
+
+4. **Large-Scale Simulation:** Simulate phenomena at a larger scale, such as defect formation energies and favorable adsorption sites, using the fine-tuned potentials.
      
-## 3. Methodology
+## 3. Methodology (What is special?)
    - Allegro-FM integration with [Atomic Simulation Environment](https://nequip.readthedocs.io/en/latest/integrations/ase.html): Use ASE package to build the FCC Ni structure and Ni-based alloy systems.
    - Data Preparation for Fine-Tuning: Gather dataset of Ni structures and their corresponding energies and forces to use for fine-tuning.
    - Model Fine-tuning: Load pre-trained Allegro-FM with 89 elements, then fine-tune the model using the prepared Ni-based alloy dataset to optimize for this particular material.
