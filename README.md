@@ -1,6 +1,6 @@
-# Allergo-FM-application-for-materials-property Proposal
+# Allegro-FM: uMLIP Electronic Structure and Fine Tuning
 
-Apply Allergo foundation model  and other popular foundation models for different materials properties prediction and analysis 
+**A materials simulation framework for benchmarking and fine-tuning of Foundation Models for Interatomic Potentials (Allegro-FM, UMA, MACE, PET-MAD).**
 
 **Outline of project**:
 
