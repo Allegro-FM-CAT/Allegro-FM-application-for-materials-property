@@ -104,7 +104,7 @@ Allegro-FM-application-for-materials-property/
       <img src="./result/energy_volume_Ni-nequip.png" alt="energy result" width="400"/>
     </p>
 
-### G(r) calculation and MD performance using UMA for Tobermorite.
+### G(r) calculation, MD performance, and structure optimization using UMA for Tobermorite
 <table>
   <tr>
     <td align="center">
@@ -119,6 +119,11 @@ Allegro-FM-application-for-materials-property/
     </td>
   </tr>
 </table>
+
+<p align="center">
+   <img src="./result/tobe-opt.mov" alt="mov" width="400"/>
+</p>
+
 
 ### Finetune preliminary study
 
