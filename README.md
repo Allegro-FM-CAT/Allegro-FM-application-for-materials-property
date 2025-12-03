@@ -99,8 +99,7 @@ Allegro-FM-application-for-materials-property/
 ***Fine-tune Preliminary***
 | Metric | Base UMA | Fine-tuned UMA | DFT Ground Truth | Improvement |
 | :--- | :--- | :--- | :--- | :--- |
-| **Predicted Energy (eV)** | -1001.7435 | -1070.8307 | - | - |
-| **MAE (eV)** | 59.8165 | 9.2707 | - | **84.50%** |
+| **Predicted Energy (eV)** | -1001.7435 | -1070.8307 | -1061.56 | **84.50%** |
 
 ## 6. Future work
 - Calcualate remaining properties for Ni and tobermorite structures.
