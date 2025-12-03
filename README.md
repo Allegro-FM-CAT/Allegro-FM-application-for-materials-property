@@ -20,7 +20,9 @@ The practical utility of an uMLIP depends on how efficiently the model can be sp
 - Specialization: Fine-tuning allows us to take a more general model and optimize it for a specific system.
   For example:
   - **Thermodynamic Systems :** Recovering the exact energy minima required for Ni-based superalloy stability and phase boundaries.
+    ![Ni.xyz](./data/Ni.png)
   - **Disordered Systems :** Capturing the complex geometries of semi-amorphous Calcium-Silicate-Hydrate (Tobermorite).
+    ![tobermorite](./data/tobe-small.png)
 
 - Achieving Near-Quantum Accuracy: While universal models are good, but they may not match the precision of *ab initio* methods for every structure. The project proposes using techniques like LoRA to rapidly fine-tune the model to achieve "near-quantum accuracy" relative to DFT data.
 
