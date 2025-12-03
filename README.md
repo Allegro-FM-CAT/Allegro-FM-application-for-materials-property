@@ -15,7 +15,7 @@ Foundation Models(FMs) like **MACE-MP-0** and **Allegro-FM** are universal, pre-
 
 The practical utility of an uMLIP depends on how efficiently the model can be specialized for a target system. We propose that the PET architecture combined with parameter-efficient Low-Rank Adaptation (**LoRA**) enables rapid fine-tuning to near-quantum accuracy. In this work, we will first rigorously benchmark accuracy-efficiency trade-offs among representative foundation models and traditional DFT calculations.
 
-### **$\color{cyan}{\text{Why we need?}}$**
+### **$\color{red}{\text{Why we need?}}$**
 
 - Specialization: Fine-tuning allows us to take a more general model and optimize it for a specific system.
   For example:
