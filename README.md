@@ -122,9 +122,42 @@ Allegro-FM-application-for-materials-property/
 
 ### Finetune preliminary study
 
-| Metric | Base UMA | Fine-tuned UMA | DFT Ground Truth | Improvement |
-| :--- | :--- | :--- | :--- | :--- |
-| **Predicted Energy (eV)** | -1001.7435 | -1070.8307 | -1061.56 | **84.50%** |
+(NOTE: Preliminary study runs on CPU with smaller dataset for now)
+100 training samples, 20 validation from vasprun.xml from VASP non-collinear simulation on YMno3 2x2x1 120 atoms structure
+
+| Metric | Base UMA | Fine-tuned UMA | DFT Ground Truth |
+| :--- | :--- | :--- | :--- |
+| **Energy (eV)** | -1001.7435 | -1070.8307 | -1061.56 |
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./result/ft-energy.png" alt="gr" width="400"/>
+      <br>
+      <em>Predicted Energy</em>
+    </td>
+    <td align="center">
+      <img src="./result/ft-energydrift.png" alt="md" width="400"/>
+      <br>
+      <em>Drift of Energy from Initial</em>
+    </td>
+  </tr>
+</table>
+
+<table>
+  <tr>
+    <td align="center">
+      <img src="./result/ft-temp.png" alt="gr" width="400"/>
+      <br>
+      <em>Temperture of the system</em>
+    </td>
+    <td align="center">
+      <img src="./result/ft-rdf.png" alt="md" width="400"/>
+      <br>
+      <em>RDF for Y-O and Mn-O</em>
+    </td>
+  </tr>
+</table>
 
 ## 6. Future work
 - Calcualate remaining properties for Ni and tobermorite structures.
